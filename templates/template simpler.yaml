@@ -1,0 +1,30 @@
+---
+# Name of workflow (title displayed)
+name: Example workflow
+# Any tags (category names) that the workflow should be categorized with.
+tags:
+    - homebrew
+# A description of the workflow.
+description: |-
+   Switches to given conda environment
+# terminal command => not fix arguments in {{argument_name}}
+command: brew install {{package_name}}
+# List of (optional) arguments (objects in double brackets) within the command. If there aren't any write: arguments: []
+arguments:
+    # Name of the argument within the command (must match the name of the argument in the command (without the curly braces).
+  - name: package_name
+    # default value for the argument. If there isn't one enter: ~
+    default_value: ~
+    # The description of the argument
+    description: |-
+        Name of package (formula) you want homebrew to install.
+# author of workflow.
+author: Laura Iris Baermel
+# Link to author's github page
+author_url: "https://github.com/LauraIris"
+# The valid shells where this workflow should be active. If valid for all shells, this can be left empty. See FORMAT.md for the full list of accepted values
+shells: []
+
+
+# yaml basic manual: https://learnxinyminutes.com/docs/yaml/
+# '|-' can be removed it there aren't any linebreaks that should be kept. ':' can be used in a description if right after a string e.g "dini": muetter

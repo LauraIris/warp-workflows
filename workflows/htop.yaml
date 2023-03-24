@@ -1,0 +1,18 @@
+---
+name: Interactive Process Viewer
+tags:
+    - htop
+description: |-
+   Htop is a free (GPL) ncurses-based process viewer for Linux.
+
+       It  is  similar  to  top, but allows you to scroll vertically and horizontally, so you can see all the processes
+       running on the system, along with their full command lines, as well as viewing them as a process tree, selecting
+       multiple processes and acting on them all at once.
+
+       Tasks related to processes (killing, renicing) can be done without entering their PIDs.
+       the host system.
+command: htop
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
