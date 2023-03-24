@@ -1,0 +1,12 @@
+---
+name: Run Docker
+command: docker run {{image}}
+tags:
+  - Docker
+description: Run a Docker Container
+arguments:
+  - name: image
+    description: The name of the package that should be removed
+    default_value: ~
+author: Lukas Zimmermann
+shells: []
