@@ -1,0 +1,15 @@
+---
+name: Show all services and units managed by systemd (running processes)
+tags:
+    - systemd
+    - processes
+description: |-
+     Displays the status of all system services and units managed by systemd, including information about their current state (= process state), whether they are enabled to start at boot, and any errors or warnings associated with them. It can be useful for troubleshooting system issues and monitoring the status of system services.
+    Units & Slices: There are multiple units in a system (to see all units type in „system -cgls“). In order to get a better overview of the units, they are split apart in slices (according to their resource usage)
+    Doc: https://www.freedesktop.org/software/systemd/man/systemd.slice.html
+    For a broader overview of the process hierarchy of the system use the command 'pstree'
+command: systemctl status -all
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

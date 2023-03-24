@@ -1,0 +1,15 @@
+---
+name: Connect to Virtual Machine (VM)
+tags:
+    - ssh
+    - vm
+description: |-
+   Connect to Ubuntu virtual machine using your ssh-client
+command: ssh -i .ssh/demo_bsy.pem ubuntu@{{floating_IP}} mka {{}}
+arguments:
+  - name: floating_IP
+    default_value: 160.85.37.23
+    description: Floating IP associated with BSY-Lab VM
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

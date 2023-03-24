@@ -1,0 +1,11 @@
+---
+name: Show the default target for the local operating system.
+tags:
+    - systemd
+description: |-
+     The target that is booted by default. This is a symbolic link to another target, like graphical.target. This can be changed permanently via YaST (see xref linkend="sec-boot-runlevel-edit"). To change it for a session, rather than permanently, use the kernel parameter systemd.unit=TARGET-NAME.target at the boot prompt.
+command: systemctl get-default
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

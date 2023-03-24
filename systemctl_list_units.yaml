@@ -1,0 +1,28 @@
+---
+name: List all loaded (active) units
+command: systemctl list-units {{flag_option}} {{flag_filter}}
+tags:
+  - systemd
+  - processes
+description: |-
+    List units that systemd currently has in memory. By default only units which are active, have pending jobs, or have failed are shown; this can be changed with option --all.
+    "UNIT": The systemd unit name
+    "LOAD": Wether the unit’s configuration has been parsed by systemd. The configuration of loaded units is kept in memory.
+    "ACTIVE": A summary state about whether the unit is active. This is usually a fairly basic way to tell if the unit has started successfully or not.
+    "SUB": This is a lower-level state that indicates more detailed information about the unit. This often varies by unit type, state, and the actual method in which the unit runs.
+    "DESCRIPTION": A short textual description of what the unit is/does.
+arguments:
+  - name: flag_option
+    default_value: ~
+    description: |-
+        See additional units.
+        "--all": see all loaded units (active & inactive units)
+  - name: flag_filter
+    default_value: ~
+    description: |-
+        Filter shown units by
+        "--type=": e.g. --type=service
+        "--state=": e.g. --state=active or --state=inactive
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

@@ -1,0 +1,10 @@
+---
+name: List of watched directories.
+tags:
+    - watchman
+description: Returns a list of watched directories.
+command: watchman watch-list
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

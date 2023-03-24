@@ -1,0 +1,13 @@
+---
+name: Display process hierarchy in tree format (incl. parent-child relationships)
+tags:
+    - pstree
+    - processes
+description: |-
+     Displays the process hierarchy of the system in a tree format, showing the parent-child relationships between processes. It can be useful for understanding the relationships between different processes and how they are organized on the system.
+    For a more detailed view of system services and units managed by systemd use the command 'systemctl status -all'
+command: pstree
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

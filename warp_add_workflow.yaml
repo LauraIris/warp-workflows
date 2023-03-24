@@ -1,0 +1,13 @@
+---
+name: Add new workflow to warp
+tags:
+    - warp
+description: Add yaml file (in which de workflow is defined) to warps workflow directory
+command: cp {{yaml_file_path}} ~/.warp/workflows
+arguments:
+  - name: yaml_file_path
+    default_value: ~/Documents/dev/private/warp/workflows/
+    description: File path where the yaml file is saved
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

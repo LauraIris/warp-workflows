@@ -1,0 +1,28 @@
+---
+name: Show a targets/runlevels dependencies
+command: |-
+    systemctl show -p "Requires" {{target_name}}.target
+    systemctl show -p "Wants" {{target_name}}.target
+tags:
+  - systemd
+description: |-
+    “Requires” lists the hard dependencies (the ones that must be resolved), whereas “Wants” lists the soft dependencies (the ones that get resolved if possible).
+arguments:
+  - name: target_name
+    default_value: default
+    description: |-
+        There are over 80 targets listed in man 7 systemd.special. The next section (Section 3, “List of the most important targets”) lists the most important targets.
+        List of most important targets ...
+        default.target
+        emergency.target
+        graphical.target
+        halt.target
+        multi-user.target
+        reboot.target
+        rescue.target
+        runlevel{number}.target
+
+
+author: baermlau
+author_url: "https://github.com/LauraIris"
+shells: []

@@ -1,0 +1,10 @@
+---
+name: Exit watchman service
+tags:
+    - watchman
+description: This command causes your watchman service to exit with a normal status code.
+command: watchman shutdown-server
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

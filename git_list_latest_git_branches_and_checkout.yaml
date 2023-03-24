@@ -1,0 +1,9 @@
+---
+name: list latest git branches and select to check out
+command: git branch --no-merged=master --sort=-committerdate --format='%(refname:short)'
+tags:
+  - git
+description: Display the local git branches that have not been merged and displays the commits
+author: Mathias Karstädt
+author_url: "https://mathiaskarstaedt.de"
+shells: []

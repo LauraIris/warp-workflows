@@ -1,0 +1,9 @@
+---
+name: Change to default target/runlevel
+tags:
+    - systemd
+command: systemctl default
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

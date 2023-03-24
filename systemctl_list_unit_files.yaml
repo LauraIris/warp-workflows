@@ -1,0 +1,12 @@
+---
+name: List all unit files
+command: systemctl list-unit-files
+tags:
+  - systemd
+  - processes
+description: |-
+    The list-units command only displays units that systemd has attempted to parse and load into memory. Since systemd will only read units that it thinks it needs, this will not necessarily include all of the available units on the system. To see every available unit file within the systemd paths, including those that systemd has not attempted to load, you can use the list-unit-files command instead:
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
