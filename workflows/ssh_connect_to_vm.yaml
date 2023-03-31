@@ -5,7 +5,7 @@ tags:
     - vm
 description: |-
    Connect to Ubuntu virtual machine using your ssh-client
-command: ssh -i .ssh/demo_bsy.pem ubuntu@{{floating_IP}}
+command: ssh ubuntu@{{floating_IP}}
 arguments:
   - name: floating_IP
     default_value: 160.85.37.23
