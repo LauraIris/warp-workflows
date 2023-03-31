@@ -8,7 +8,7 @@ description: |-
 command: systemd-cgtop {{option}}
 arguments:
   - name: package_name
-    default_value: ~
+    default_value: -1
     description: |-
         -p, --order=path
            Order by control group path name.
@@ -28,6 +28,8 @@ arguments:
            Controls whether the number of processes shown for a control group shall include all processes that are contained in any of the child control groups as well.
         -n, --iterations=
            Perform only this many iterations. A value of 0 indicates that the program should run indefinitely.
+        -1
+           Perform only 1 iteration
         
         for more see man page
         
