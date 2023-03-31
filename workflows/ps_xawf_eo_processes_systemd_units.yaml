@@ -1,5 +1,5 @@
 ---
-name: list all processes & systemd units they belong to
+name: list all processes & systemd units they belong to (show which child belongs to which parent)
 tags:
     - systemd
     - cgroup

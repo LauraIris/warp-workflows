@@ -1,0 +1,37 @@
+---
+name: show top control groups by their resource usage
+tags:
+    - systemd
+    - cgroup
+description: |-
+   Shows the top control groups of the local Linux control group hierarchy, ordered by their CPU, memory, or disk I/O load. The display is refreshed in regular intervals (by default every 1s), similar in style to top(1).
+command: systemd-cgtop {{option}}
+arguments:
+  - name: package_name
+    default_value: ~
+    description: |-
+        -p, --order=path
+           Order by control group path name.
+        -t, --order=tasks
+           Order by number of tasks/processes in the control group.
+        -c, --order=cpu
+           Order by CPU load.
+        -m, --order=memory
+           Order by memory usage.
+        -i, --order=io
+           Order by disk I/O load.
+        -P
+           Count only userspace processes instead of all tasks.
+        -k
+           Count only userspace processes and kernel threads instead of all tasks.
+        --recursive=
+           Controls whether the number of processes shown for a control group shall include all processes that are contained in any of the child control groups as well.
+        -n, --iterations=
+           Perform only this many iterations. A value of 0 indicates that the program should run indefinitely.
+        
+        for more see man page
+        
+    
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
