@@ -1,0 +1,16 @@
+---
+name: Co-mount multiple CPU controllers against the same hierarchy (Collective Resource Control)
+tags:
+    - cgroup
+    - RAM
+description: |-
+    If we have tmpfs mounted at /sys/fs/cgroup. You can co-mount multiple controllers agains the same hierarchy (Collective Resource Control)
+    => The cpu and cpuacct controllers are comounted against a single hierarchy
+    
+    Attention: It is not possible to mount the same controller against multiple cgroup hierarchies. ->  Example: impossible, cpu and cpuacct controllers on one mount, and the cpu controller reused on another
+
+command: mount -t cgroup -o cpu,cpuacct none sys/fs/cgroup/cpu,cpuacc
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

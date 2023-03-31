@@ -1,0 +1,12 @@
+---
+name: Mount CPU controller against a single hierarchy (Individual Resource Control)
+tags:
+    - cgroup
+    - RAM
+description: |-
+    If we have tmpfs mounted at /sys/fs/cgroup the cpu controller can be mounted against a single hierarchy (Individual Resource Control)
+command: mount -t cgroup -o cpu none /sys/fs/cgroup/cpu
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
