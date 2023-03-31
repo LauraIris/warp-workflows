@@ -1,0 +1,16 @@
+---
+name: check configuration for a process
+tags:
+    - cgroup
+    - systemd
+description: |-
+   Check the configuration for a process using “ps” and “grep”.
+command: ps -ef | grep {{process_name}}
+arguments:
+  - name: process_name
+    default_value: cron
+    description: |-
+        Name of process you want to see the configuation of.
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

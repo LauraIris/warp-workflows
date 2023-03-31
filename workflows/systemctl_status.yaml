@@ -1,0 +1,16 @@
+---
+name: check status of a process
+tags:
+    - cgroup
+    - systemd
+description: |-
+   Check the status of a process.
+command: systemctl status {{process_name}}
+arguments:
+  - name: process_name
+    default_value: cron
+    description: |-
+        Name of process you want to see the status of.
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
