@@ -1,5 +1,5 @@
 ---
-name: Get the current target/runlevel i.e. list active targets
+name: get the current target/runlevel i.e. list active targets
 tags:
     - systemd
 description: |-

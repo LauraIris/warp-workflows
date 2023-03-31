@@ -1,5 +1,5 @@
 ---
-name: Connect to Virtual Machine (VM)
+name: connect to virtual machine (vm)
 tags:
     - ssh
     - vm

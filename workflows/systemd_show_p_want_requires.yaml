@@ -1,5 +1,5 @@
 ---
-name: Show a targets/runlevels dependencies
+name: show a targets/runlevels dependencies
 command: |-
     systemctl show -p "Requires" {{target_name}}.target
     systemctl show -p "Wants" {{target_name}}.target

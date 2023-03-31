@@ -1,5 +1,5 @@
 ---
-name: Change to default target/runlevel
+name: change to default target/runlevel
 tags:
     - systemd
 command: systemctl default

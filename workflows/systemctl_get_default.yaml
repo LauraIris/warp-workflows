@@ -1,5 +1,5 @@
 ---
-name: Show the default target for the local operating system.
+name: show the default target for the local operating system
 tags:
     - systemd
 description: |-

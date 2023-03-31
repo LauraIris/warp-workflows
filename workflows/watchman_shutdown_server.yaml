@@ -1,5 +1,5 @@
 ---
-name: Exit watchman service
+name: exit watchman service
 tags:
     - watchman
 description: This command causes your watchman service to exit with a normal status code.

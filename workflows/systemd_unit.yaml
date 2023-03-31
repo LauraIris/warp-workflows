@@ -1,5 +1,5 @@
 ---
-name: Change the default runlevel for the current boot process
+name: change the default runlevel for the current boot process
 command: systemd.unit {{target_name}}.target
 tags:
   - systemd

@@ -1,5 +1,5 @@
 ---
-name: List all unit files
+name: list all unit files
 command: systemctl list-unit-files
 tags:
   - systemd

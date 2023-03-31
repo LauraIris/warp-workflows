@@ -1,5 +1,5 @@
 ---
-name: List of watched directories.
+name: list of watched directories.
 tags:
     - watchman
 description: Returns a list of watched directories.

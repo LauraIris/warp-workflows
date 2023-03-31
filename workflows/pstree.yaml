@@ -1,5 +1,5 @@
 ---
-name: Display process hierarchy in tree format (incl. parent-child relationships)
+name: display process hierarchy in tree format (incl. parent-child relationships)
 tags:
     - pstree
     - processes

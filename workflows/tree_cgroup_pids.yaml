@@ -1,5 +1,5 @@
 ---
-name: Tree of cgroups and their pids
+name: tree of cgroups and their pids
 tags:
     - tree
     - systemd

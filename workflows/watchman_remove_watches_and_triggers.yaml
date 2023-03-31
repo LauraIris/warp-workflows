@@ -1,5 +1,5 @@
 ---
-name: Remove watches and associated triggers from watchman
+name: remove watches and associated triggers from watchman
 tags:
     - watchman
 description: |-
