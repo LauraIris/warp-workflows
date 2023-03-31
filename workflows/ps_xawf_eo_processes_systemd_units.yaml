@@ -1,0 +1,14 @@
+---
+name: list all processes & systemd units they belong to
+tags:
+    - systemd
+    - cgroup
+    - processes
+description: |-
+   Lists all processes and the systemd units they belong to.
+   Shows exactly which process belongs to which parent job.
+command: ps xawf -eo pid,user,cgroup,args
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
