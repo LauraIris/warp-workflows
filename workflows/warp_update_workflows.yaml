@@ -5,7 +5,7 @@ name: Update Workflows
 command: |-
     cp {{dir_path}}* ~/.warp/workflows/
 tags:
-  - workflows
+  - warp
 arguments:
   - name: dir_path
     default_value: ~/Documents/dev/private/warp/workflows/
