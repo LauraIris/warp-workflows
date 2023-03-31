@@ -1,0 +1,32 @@
+---
+name: recursively show control group contents
+tags:
+  - systemd
+command: systemd-cgls {{option}}
+description: |-
+    systemd-cgls recursively shows the contents of the selected Linux control group hierarchy in a tree. If arguments are specified, shows all member processes of the specified control groups plus all their subgroups and their members. The control groups may either be specified by their full file paths or are assumed in the systemd control group hierarchy. If no argument is specified and the current working directory is beneath the control group mount point /sys/fs/cgroup, shows the contents of the control group the working directory refers to. Otherwise, the full systemd control group hierarchy is shown.
+    By default, empty control groups are not shown.
+arguments:
+  - name: target_name
+    default_value: ~
+    description: |-
+       --all
+           Do not hide empty control groups in the output.
+       -l, --full
+           Do not ellipsize process tree members.
+       -u, --unit
+           Show cgroup subtrees for the specified units.
+       --user-unit
+           Show cgroup subtrees for the specified user units.
+       -k
+           Include kernel threads in output.
+       -M MACHINE, --machine=MACHINE
+           Limit control groups shown to the part corresponding to the container MACHINE.
+       -h, --help
+           Print a short help text and exit.
+       --no-pager
+           Do not pipe output into a pager.
+
+author: baermlau
+author_url: "https://github.com/LauraIris"
+shells: []
