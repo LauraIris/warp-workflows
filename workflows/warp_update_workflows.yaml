@@ -3,9 +3,13 @@
 # And this help page: https://docs.warp.dev/features/workflows
 name: Update Workflows
 command: |-
-    cp ~/Documents/dev/private/warp/workflows/* ~/.warp/workflows/
+    cp {{dir_path}}* ~/.warp/workflows/
 tags:
   - workflows
+arguments:
+  - name: dir_path
+    default_value: ~/Documents/dev/private/warp/workflows/
+    description: Directory path where yaml files are saved
 description: Copy workflow files from repository path
 author: Laura Iris Baermel
 author_url: "https://github.com/LauraIris"

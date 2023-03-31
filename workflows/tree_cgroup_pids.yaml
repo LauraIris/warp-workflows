@@ -1,0 +1,15 @@
+---
+name: Tree of cgroups and their pids
+tags:
+    - tree
+    - systemd
+    - cgroup
+description: |-
+   .scope -> system processes
+   .slice -> generic processes
+   .service -> process controlled/supervised by systemd
+command: tree /sys/fs/cgroup/pids
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
