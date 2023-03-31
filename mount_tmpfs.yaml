@@ -1,0 +1,17 @@
+---
+name: Mount temporary filesystem (tmpfs) whose contents reside in RAM
+tags:
+    - cgroup
+    - RAM
+description: |-
+   Controllers require at least one cgroup filesystem.
+   The usual place for such mounts is under a tmpfs.
+   The tmpfs facility allows the creation of filesystems whose contents reside in virtual memory (RAM) -> Extremely fast file operations
+command: sudo mount -t tmpfs -o size={{size_of_tmpf}}M tmpfs /mnt/mytmpfs
+arguments:
+  - name: size_of_tmpf
+    default_value: 10
+    description: Size of temporary filesystem
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
