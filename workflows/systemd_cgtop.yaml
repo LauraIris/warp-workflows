@@ -1,8 +1,9 @@
 ---
-name: show top control groups by their resource usage
+name: Show top control groups by their resource usage
 tags:
     - systemd
     - cgroup
+    - processes
 description: |-
    Shows the top control groups of the local Linux control group hierarchy, ordered by their CPU, memory, or disk I/O load. The display is refreshed in regular intervals (by default every 1s), similar in style to top(1).
 command: systemd-cgtop {{option}}

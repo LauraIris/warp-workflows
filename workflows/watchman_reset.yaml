@@ -1,0 +1,13 @@
+---
+name: Reset watchman (del active watches and shutdown server)
+tags:
+    - watchman
+description: Delete active watches (crawls) and shutdown server. Use this when the warning "watchman has recrawled ..." pops up.
+command: |-
+    watchman watch-del-all
+    watchman shutdown-server
+    
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

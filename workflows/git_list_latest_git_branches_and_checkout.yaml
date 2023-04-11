@@ -1,5 +1,5 @@
 ---
-name: list latest git branches and select to check out
+name: List latest git branches and select to check out
 command: git branch --no-merged=master --sort=-committerdate --format='%(refname:short)'
 tags:
   - git

@@ -1,5 +1,5 @@
 ---
-name: show all services and units managed by systemd (running processes)
+name: Show all services and units managed by systemd (running processes)
 tags:
     - systemd
     - processes

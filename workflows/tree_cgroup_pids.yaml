@@ -1,9 +1,10 @@
 ---
-name: tree of cgroups and their pids
+name: Tree of cgroups and their pids
 tags:
     - tree
     - systemd
     - cgroup
+    - processes
 description: |-
    .scope -> system processes
    .slice -> generic processes

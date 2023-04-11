@@ -1,10 +1,11 @@
 ---
-name: show a targets/runlevels dependencies
+name: Show a targets/runlevels dependencies
 command: |-
     systemctl show -p "Requires" {{target_name}}.target
     systemctl show -p "Wants" {{target_name}}.target
 tags:
   - systemd
+  - processes
 description: |-
     “Requires” lists the hard dependencies (the ones that must be resolved), whereas “Wants” lists the soft dependencies (the ones that get resolved if possible).
 arguments:

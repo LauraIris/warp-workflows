@@ -1,5 +1,5 @@
 ---
-name: list all loaded (active) units
+name: List all loaded (active) units
 command: systemctl list-units {{flag_option}} {{flag_filter}}
 tags:
   - systemd

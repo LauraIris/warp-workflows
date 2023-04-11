@@ -1,11 +1,12 @@
 ---
-name: change the default runlevel for the current boot process
-command: systemd.unit {{target_name}}.target
+name: Change the default runlevel for the current boot process
+
 tags:
   - systemd
 description: |-
     Enter this command at the boot prompt
     There are over 80 targets listed in man 7 systemd.special. The next section (Section 3, “List of the most important targets”) lists the most important targets.
+command: systemd.unit {{target_name}}.target
 arguments:
   - name: target_name
     default_value: default

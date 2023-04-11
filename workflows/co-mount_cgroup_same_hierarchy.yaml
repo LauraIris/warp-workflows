@@ -1,5 +1,5 @@
 ---
-name: co-mount multiple CPU controllers against the same hierarchy (Collective Resource Control)
+name: Co-mount multiple CPU controllers against the same hierarchy (Collective Resource Control)
 tags:
     - cgroup
     - RAM

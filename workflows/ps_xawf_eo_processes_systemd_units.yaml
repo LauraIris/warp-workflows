@@ -1,7 +1,7 @@
 ---
-name: list all processes & systemd units they belong to (show which child belongs to which parent)
+name: List all processes & systemd units they belong to (show which child belongs to which parent)
 tags:
-    - systemd
+    - ps
     - cgroup
     - processes
 description: |-

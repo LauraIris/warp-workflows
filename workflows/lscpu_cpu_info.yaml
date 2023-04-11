@@ -1,5 +1,5 @@
 ---
-name: display info about cpu architecture
+name: Display info about cpu architecture
 tags:
     - lscpu
 description: |-

@@ -1,7 +1,8 @@
 ---
-name: interactive process viewer
+name: Interactive process viewer
 tags:
     - htop
+    - processes
 description: |-
    Htop is a free (GPL) ncurses-based process viewer for Linux.
 

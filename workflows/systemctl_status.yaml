@@ -1,8 +1,8 @@
 ---
-name: check status of a process
+name: Check status of a process
 tags:
-    - cgroup
     - systemd
+    - processes
 description: |-
    Check the status of a process.
 command: systemctl status {{process_name}}

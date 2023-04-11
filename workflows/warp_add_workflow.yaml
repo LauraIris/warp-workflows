@@ -1,5 +1,5 @@
 ---
-name: add new workflow to warp
+name: Add new workflow to warp
 tags:
     - warp
 description: Add yaml file (in which de workflow is defined) to warps workflow directory

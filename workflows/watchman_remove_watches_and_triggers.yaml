@@ -1,12 +1,11 @@
 ---
-name: remove watches and associated triggers from watchman
+name: Remove watches and associated triggers from watchman
 tags:
     - watchman
 description: |-
     Removes all watches and associated triggers.
     Analogous to the watch-del this command will remove all watches and associated triggers from the running process, and the state file ( unless watchman service was started with –no-save-state server option).
-command: |-
-    watchman watch-del-all
+command: watchman watch-del-all
 arguments: []
 author: Laura Iris Baermel
 author_url: "https://github.com/LauraIris"

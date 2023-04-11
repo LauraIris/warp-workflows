@@ -1,7 +1,8 @@
 ---
-name: list recursively show control group contents (show which child belongs to which parent)
+name: List recursively show control group contents (show which child belongs to which parent)
 tags:
   - systemd
+  - processes
 command: systemd-cgls {{option}}
 description: |-
     Short: shows which process belongs to which user, plus each process shows its child processes as subsets of information

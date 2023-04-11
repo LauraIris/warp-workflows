@@ -1,7 +1,8 @@
 ---
-name: get the current target/runlevel i.e. list active targets
+name: Get the current target/runlevel i.e. list active targets
 tags:
     - systemd
+    - processes
 description: |-
      With systemd there is usually more than one active target. The command lists all currently active targets.
      There are over 80 targets listed in man 7 systemd.special. The next section (Section 3, “List of the most important targets”) lists the most important targets.

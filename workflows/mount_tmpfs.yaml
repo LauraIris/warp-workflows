@@ -1,5 +1,5 @@
 ---
-name: mount temporary filesystem (tmpfs) whose contents reside in RAM
+name: Mount temporary filesystem (tmpfs) whose contents reside in RAM
 tags:
     - cgroup
     - RAM

@@ -1,5 +1,5 @@
 ---
-name: mount cpu controller against a single hierarchy (individual resource control)
+name: Mount cpu controller against a single hierarchy (individual resource control)
 tags:
     - cgroup
     - RAM

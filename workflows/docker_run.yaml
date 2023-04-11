@@ -1,5 +1,5 @@
 ---
-name: run docker
+name: Run docker
 command: docker run {{image}}
 tags:
   - Docker

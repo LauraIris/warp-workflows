@@ -1,8 +1,8 @@
 ---
-name: check configuration for a process
+name: Check configuration for a process
 tags:
-    - cgroup
-    - systemd
+    - ps
+    - processes
 description: |-
    Check the configuration for a process using “ps” and “grep”.
 command: ps -ef | grep {{process_name}}

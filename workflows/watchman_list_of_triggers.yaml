@@ -1,5 +1,5 @@
 ---
-name: list of registered triggers
+name: List of registered triggers
 tags:
     - watchman
 description: Returns the set of registered triggers associated with a root directory i.e. list of trigger objects as defined by the trigger command.

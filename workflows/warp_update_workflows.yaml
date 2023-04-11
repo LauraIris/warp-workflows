@@ -1,7 +1,7 @@
 ---
 # Based on example found here: https://github.com/warpdotdev/workflows
 # And this help page: https://docs.warp.dev/features/workflows
-name: update workflows
+name: Update workflows
 command: |-
     cp {{dir_path}}* ~/.warp/workflows/
 tags:
