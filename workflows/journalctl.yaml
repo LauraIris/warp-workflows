@@ -1,0 +1,22 @@
+---
+name: View log messages (from systemd) with journalctl
+tags:
+    - systemd
+    - processes
+command: journalctl {{option}}
+description: Show all collected log messages
+arguments:
+  - name: option
+    default_value: ~
+    description: |-
+        (Otional) options:
+        -u network.service
+           See network service log messages
+        -f
+           Follow messages as the appear
+        -k
+           Show only kernel messages
+        
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

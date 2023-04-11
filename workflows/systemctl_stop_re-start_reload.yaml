@@ -1,0 +1,26 @@
+---
+name: Stop / start / restart a service or reload its config
+tags:
+    - systemd
+    - processes
+description: Stop, start or restart a service or reload all config files in a service
+command: systemctl {{option}} {{service_name}}
+arguments:
+  - name: option
+    default_value: stop
+    description: |-
+        Options:
+        stop
+            Stop a running service
+        start
+            Start a service
+        restart
+            Restart a running service
+        reload
+            Reload all config files in service
+  - name: service_name
+    default_value: ~
+    description: Name of service
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

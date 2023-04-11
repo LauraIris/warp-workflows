@@ -1,0 +1,21 @@
+---
+name: Enable or disable a service
+tags:
+    - systemd
+    - processes
+command: systemctl {{option}} {{service_name}}
+arguments:
+  - name: option
+    default_value: enable
+    description: |-
+        Options:
+        enable
+            Enable a service to start on boot
+        disable
+            Disable servie --won't sart at boot
+  - name: service_name
+    default_value: ~
+    description: Name of service
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

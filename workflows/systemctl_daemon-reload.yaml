@@ -1,0 +1,12 @@
+---
+name: Reload daemon (to reload changed unit files)
+tags:
+    - systemd
+    - processes
+description: |-
+   Must run to reload changed unit files
+command: systemctl reload-daemon
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

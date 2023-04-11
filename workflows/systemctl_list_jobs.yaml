@@ -1,0 +1,11 @@
+---
+name: List jobs
+tags:
+    - systemd
+    - processes
+description: View active systemd jobs
+command: systemctl list-jobs
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

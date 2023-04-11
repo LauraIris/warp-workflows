@@ -1,0 +1,10 @@
+---
+name: List sockets and what activates
+tags:
+    - systemd
+    - processes
+command: systemctl list-sockets
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

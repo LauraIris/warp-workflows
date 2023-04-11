@@ -1,0 +1,11 @@
+---
+name: List dependencies of unit
+tags:
+    - systemd
+    - processes
+description: Show a units dependencies
+command: systemctl list-dependencies
+arguments: []
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

@@ -1,0 +1,13 @@
+---
+name: Show properties of a service (or other unit)
+tags:
+    - systemd
+    - processes
+command: systemctl show {{service_name}}
+arguments:
+  - name: service_name
+    default_value: ~
+    description: Name of service
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []

@@ -1,0 +1,20 @@
+---
+name: Edit unit file
+tags:
+    - systemd
+    - processes
+command: systemctl edit {{option}} {{service_name}}
+description: |-
+    Edit unit file.
+    Create snippit to drop in unit file (without '--full')
+arguments:
+  - name: option
+    default_value: --full
+    description: |-
+        (Optional) Edit entire unit file for service
+  - name: service_name
+    default_value: ~
+    description: Name of service or unit
+author: Laura Iris Baermel
+author_url: "https://github.com/LauraIris"
+shells: []
